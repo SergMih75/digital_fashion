@@ -1,0 +1,62 @@
+@keyframes bgBodyChang {
+    0% {
+        background-color: $bgDark;
+    }
+
+    15% {
+        background-color: $bgDark;
+    }
+
+    100% {
+        background-color: $bgGrey;
+    }
+}
+
+@keyframes mainOpacity {
+    0% {
+        opacity: 0;
+        scale: 0;
+        background-color: $bgWhite;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+        background-color: $bgDark;
+    }
+
+}
+
+@keyframes previewMove {
+    0% {
+        scale: 0;
+    }
+
+    33% {
+        scale: 1.15;
+        opacity: .9;
+    }
+
+        100% {
+                scale: 1;
+                opacity: 1;
+                filter: blur(0) contrast(1);
+                -webkit-filter: blur(0) contrast(1);
+}
+}
+
+@keyframes titleMove {
+    0% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+}
