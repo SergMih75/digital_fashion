@@ -3,7 +3,7 @@ const title = document.querySelectorAll('.title-start')
 title.forEach((title, index) => {
 	setTimeout(() => {
 		title.style.animation = 'titleMove'
-		title.style.animationDuration = 5000 + 'ms'
+		title.style.animationDuration = 2500 + 'ms'
 		title.style.animationFillMode = 'forwards'
 	}, (index + 1) * 2000)
 })
