@@ -14,7 +14,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
   justify-content: center;
   animation: bgBodyChang 3500ms ease-out forwards;
   -webkit-animation: bgBodyChang 3500ms ease-out forwards;
@@ -152,7 +151,7 @@ body {
     background-color: #000;
   }
   100% {
-    background-color: rgba(23, 21, 24, 0.9098039216);
+    background-color: rgba(13, 13, 13, 0.95);
   }
 }
 @keyframes mainOpacity {
